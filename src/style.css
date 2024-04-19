@@ -1,0 +1,35 @@
+body {
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    background-image:url(https://i.etsystatic.com/34718913/r/il/25e834/3767469319/il_fullxfull.3767469319_dqs4.jpg);
+  background-size: cover;
+    margin:0;
+  }
+
+.button {
+  cursor:pointer;
+  display:block;
+  text-align:center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid red;
+  background: red;
+  font-size:50px;
+  font-weight:bold;
+}
+.button:hover{
+    background: rgb(225, 0, 0);
+  }
+  .button:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+.container {
+  display: flex;
+  padding:100px;
+  justify-content: center;
+}
